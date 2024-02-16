@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+    justify-items:flex-end;
+}
+
+img
+{
+    width: 20%;
+    min-height: min-content;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+}
+
+svg{
+    border: 1px solid greenyellow;
+    padding: 10px;
+}
+
+
+
+.navbar-brand{
+
+    color:#2272FF;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar-brand:hover
+{
+    font-size: 1.3rem;
+    transition: 250ms;
+}
+
+.nav-link:hover
+{
+    color: #2272FF;
+    text-decoration:wavy;
+    transition-property: all;
+    transition: ease-in;
+    transition: 250ms;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
