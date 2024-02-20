@@ -8,17 +8,47 @@ html{
     justify-items:flex-end;
 }
 
-img
+
+
+/* About Section Begins*/
+
+.info
 {
-    width: 20%;
-    min-height: min-content;
-    border: 1px solid greenyellow;
-    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  float: right;
 }
+
+.image
+{   
+    height: fit-content;
+    width: 40%;  
+    float: center;
+}
+
+.im{
+    margin: 20px;
+   border-radius: 50% 50% 50% 50%;
+   
+   border: 4px solid #2272FF;
+
+}
+
+
+
+/* About Section Ends*/
+
+
 
 svg{
     border: 1px solid greenyellow;
-    padding: 10px;
+    padding: 0px;
 }
 
 
@@ -29,6 +59,16 @@ svg{
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+span .name
+{
+    padding-top: 50px;
 }
 
 .navbar-brand:hover
@@ -53,5 +93,42 @@ svg{
   font-style: normal;
 }
 
+/* Contact Section Begins*/
+.boxes
+{
+    width: 500px;
+    padding: 20px;
+}
+.Contact
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: max-content;
+}
+/* Contact Section Ends*/
+
+/* Footer Section Begins*/
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Footer Section Ends*/
 
 
+
+
+
+
+  
+
+
+  
+
+  
