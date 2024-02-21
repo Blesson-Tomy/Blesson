@@ -1,46 +1,53 @@
 html{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(254, 254, 254);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: black;
 }
 
 .navbar-collapse{
     flex-grow: 0;
     justify-items:flex-end;
 }
-
+.nam{
+  color: #0dcaf0;
+}
 
 
 /* About Section Begins*/
 
 .info
 {
-    padding: 20px;
-    margin: 20px;
-    text-align: left;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    font-family: "Lato", sans-serif;
+  padding: 80px;
+  margin: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
-  float: right;
+  float: centre;
+  padding-left: 220px;
 }
 
 .image
 {   
     height: fit-content;
-    width: 40%;  
-    float: center;
+    width: 50%;  
+    float: right;
 }
 
 .im{
-    margin: 20px;
-   border-radius: 50% 50% 50% 50%;
-   
-   border: 4px solid #2272FF;
+  margin: 20px;
+  margin-left: 80px;
+  margin-top: 40px;
+  border-radius: 50% 50% 50% 50%;
+  border: 4px solid #0dcaf0;
+  box-shadow: 0 0 10px 0 #0dcaf0;
 
 }
-
-
 
 /* About Section Ends*/
 
@@ -51,17 +58,21 @@ svg{
     padding: 0px;
 }
 
+.navbar{
+  background-color: black;
+}
 
 
 .navbar-brand{
 
-    color:#2272FF;
+    color:#ffffff;
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
   vertical-align: middle;
   display: flex;
   align-items: center;
+  
   
   
   
@@ -73,24 +84,29 @@ span .name
 
 .navbar-brand:hover
 {
-    font-size: 1.3rem;
-    transition: 250ms;
+    font-size: 1.4rem;
+    transition: all 550ms ease-in-out;
+   
+    
 }
+
+
 
 .nav-link:hover
 {
-    color: #2272FF;
+    color: #0dcaf0;
     text-decoration:wavy;
+    border-bottom: 2px solid #0dcaf0;
     transition-property: all;
-    transition: ease-in;
-    transition: 250ms;
+    transition: all 550ms ease-in-out;
 }
 
 .nav-link{
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  border-bottom: 2px solid #000000;
 }
 
 /* Contact Section Begins*/
@@ -112,11 +128,14 @@ span .name
 footer{
     text-align: center;
     padding: 10px;
+    color: white;
 }
 
 .hero {
     display: flex;
     align-items: center;
+    
+    
   }
 
   /* Footer Section Ends*/
