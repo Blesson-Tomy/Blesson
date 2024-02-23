@@ -18,35 +18,76 @@ body{
 
 /* About Section Begins*/
 
+.hero{
+  padding: 20px;
+  max-width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
 .info
 {
-  padding: 80px;
-  margin: 20px;
   text-align: left;
   font-size: 1.5rem;
   color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
-  float: centre;
-  padding-left: 220px;
+  width: 50%;
+  max-width: vw;
 }
 
 .image
 {   
-    height: fit-content;
-    width: 50%;  
-    float: right;
+  height: fit-content;
+  width: 50%;  
+  float: right;
+  position: relative;
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    float: none;
+  }
 }
 
 .im{
-  margin: 20px;
-  margin-left: 80px;
-  margin-top: 40px;
   border-radius: 50% 50% 50% 50%;
   border: 4px solid #0dcaf0;
   box-shadow: 0 0 10px 0 #0dcaf0;
+}
 
+.im:hover
+{
+  box-shadow: 0 0 20px 0 #0dcaf0;
+  transition: all 50ms ease-in-out;
+}
+
+.fa-brands{
+  color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+  padding: 10px;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.fa-brands:hover
+{
+  color: #ffffff;
+  background-color: #0dcaf0;
+  transition: all 550ms ease-in-out;
+  box-shadow: 0 0 10px 0 #0dcaf0;
 }
 
 /* About Section Ends*/
