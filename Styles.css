@@ -75,6 +75,14 @@ body{
     
     float: none;
   }
+
+  .im-new{
+    border-radius: 5% 5% 5% 5%;
+    border: 4px solid #0dcaf0;
+    box-shadow: 0 0 10px 0 #0dcaf0;
+    width: 400px;
+    height: 400px;
+  }
 }
 
 
@@ -84,7 +92,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
   }
   
   .info {
@@ -98,6 +106,11 @@ body{
   }
 
   .im{
+    width: 200px;
+    height: 200px;
+  }
+
+  .im-new{
     width: 200px;
     height: 200px;
   }
