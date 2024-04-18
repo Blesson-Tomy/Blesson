@@ -272,3 +272,14 @@ h4,h1{
   font-weight: lighter;
   text-align: center;
 }
+.card{
+  color: #ffffff;
+  background-color: #a45bb0;
+  border: 1px solid #3ea07e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #0dcaf0;
+  
+  margin: 20px;
+
+
+}
