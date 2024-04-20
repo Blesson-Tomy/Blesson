@@ -39,6 +39,25 @@ body{
   max-width: vw;
 }
 
+.info-2
+{
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  width: 100%;
+  max-width: vw;
+  padding:15px;
+}
+
+.quote{
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
 .image
 {   
   height: fit-content;
