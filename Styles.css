@@ -82,6 +82,8 @@ body{
     align-items: center;
     margin: auto;
     padding: 100px;
+    padding-top: 145px;
+    padding-bottom: 145px;
     
     
   }
@@ -246,39 +248,9 @@ footer{
 
   /* Footer Section Ends*/
 
-   /* Photography Page*/
 
-@media (max-width: 768px) {
-  .img-fluid
-   {
-    padding: 20px;
-    width: 100%;
 
-   }
-}
 
-@media (min-width: 900px) {
-  
-  .img-fluid
-  {
-   padding: 1px;
-  }
-  .card
-  {
-    display: flex;
-    flex-direction: column;
-    background-color: #000000;
-    padding: 30px;
-    
-  }
-
-  .main
-  {
-    display: flex;
-    flex-direction: row;
-  }
-
-}
 
 h4,h1{
   color: white;
