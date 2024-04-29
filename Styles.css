@@ -276,3 +276,27 @@ h4,h1{
 .card-link{
   text-decoration: none;
 }
+
+ /* Skills Section Begins*/
+ .skills{
+  padding:20px;
+ }
+
+ .desc{
+margin-bottom: -4px;
+padding:10px;
+color: white;
+ }
+
+
+ .type1{
+  border: 1px solid #3ea07e;
+  border-radius: 20px;
+  padding: 10px;
+ }
+
+ .title{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+ }
