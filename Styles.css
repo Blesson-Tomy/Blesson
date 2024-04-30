@@ -25,6 +25,9 @@ body{
   display: flex;
   align-content: center;
   justify-content: space-around;
+  background-image: url(Images/starry-sky-star-mountains-long-exposure.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -74,6 +77,7 @@ body{
   box-shadow: 0 0 10px 0 #0dcaf0;
   width: 400px;
   height: 400px;
+  
 }
 
 @media (min-width: 900px) {
@@ -299,4 +303,8 @@ color: white;
   text-align: center;
   font-weight: bold;
   color: white;
+ }
+
+ .spec{
+  font-weight: bold;
  }
