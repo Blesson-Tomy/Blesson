@@ -8,6 +8,13 @@ body{
   
 }
 
+.heading
+{
+  
+  color: #0dcaf0;
+  font-weight: bold;
+}
+
 .navbar-collapse{
     flex-grow: 0;
     justify-items:flex-end;
@@ -88,8 +95,14 @@ body{
     padding: 100px;
     padding-top: 145px;
     padding-bottom: 145px;
+  }
+  .projects > .hero
+  {
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
     
-    
+   
   }
   
   .info {
@@ -108,6 +121,17 @@ body{
     box-shadow: 0 0 10px 0 #0dcaf0;
     width: 400px;
     height: 400px;
+  }
+
+  .type1{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .skills{
+    flex-direction: row;
+    display: flex;
+    
   }
 
 
@@ -146,6 +170,8 @@ body{
     width: 200px;
     height: 200px;
   }
+
+  
 }
 
 
@@ -300,7 +326,7 @@ color: white;
 
 
  .type1{
-  border: 1px solid #3ea07e;
+ 
   border-radius: 20px;
   padding: 10px;
  }
@@ -313,4 +339,8 @@ color: white;
 
  .spec{
   font-weight: bold;
+ }
+
+ section{
+  padding: 10px;
  }
