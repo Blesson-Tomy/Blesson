@@ -25,11 +25,11 @@ body{
   display: flex;
   align-content: center;
   justify-content: space-around;
-  background-image: url(Images/starry-sky-star-mountains-long-exposure.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   
 }
+
+
 
 .info
 {
@@ -109,6 +109,9 @@ body{
     width: 400px;
     height: 400px;
   }
+
+
+
 }
 
 
@@ -119,6 +122,9 @@ body{
     width: 100%;
     margin:auto;
     padding: 25px;
+    background-image: url(Images/starry-sky-star-mountains-long-exposure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .info {
