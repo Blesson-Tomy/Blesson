@@ -154,19 +154,21 @@
           <a href="https://github.com/Blesson-Tomy" target="_blank" id="cont"><i class="fa-brands fa-github" id="cont"></i>Blesson-Tomy</a>
         </div>
         <div class="boxes"> 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name:</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email Address:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="username@domain.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Your Message:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="This functionality is currently under development."></textarea>
-          </div>
-          <input class="btn btn-primary" type="submit" value="Submit">
+          <form id="myform">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email Address:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="username@domain.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Your Message:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="This functionality is currently under development."></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit" onclick="submitForm()">
+        </form>
         </div>
         <hr>
       </section>
@@ -191,6 +193,7 @@
       window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     </script>
     <script defer src="/_vercel/speed-insights/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
 
