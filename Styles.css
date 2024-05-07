@@ -104,6 +104,8 @@ body{
     
     
   }
+
+  
   .projects > .hero
   {
     flex-direction: row;
@@ -184,14 +186,20 @@ body{
     width: 100%;
     margin:auto;
     padding: 25px;
-    background-image: url(Images/starry-sky-star-mountains-long-exposure.jpg);
+    background-image: url(Images/Image.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
   }
+
+  
   
   .info {
     width: 100%;
-    margin-top: 20px;
+    padding-top: 50px;
+
   }
   
   .image {
