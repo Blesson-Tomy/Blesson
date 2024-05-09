@@ -50,6 +50,10 @@ body{
   max-width: vw;
 }
 
+#yel{
+  color: rgb(255, 234, 0);
+}
+
 .info-2
 {
   text-align: center;
