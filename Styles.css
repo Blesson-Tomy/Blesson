@@ -105,7 +105,7 @@ body{
     padding: 100px;
     padding-top: 175px;
     padding-bottom: 175px;
-    background-image: url(Images/starry.jpg);
+    background-image: url(Images/Hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     visibility:visible;
@@ -113,8 +113,9 @@ body{
     
   }
 
-  #herop{
-    background-image: url(Images/New_stars.jpg);
+  #herop
+  {
+    background-image: url(Images/Hero.jpg);
   }
 
   
@@ -198,16 +199,12 @@ body{
     width: 100%;
     margin:auto;
     padding: 25px;
-    background-image: url(Images/starry.jpg);
+    background-image: url(Images/Hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
     
-  }
-
-  #herop{
-    background-image: url(Images/starry.jpg);
   }
 
   
