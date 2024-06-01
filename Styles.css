@@ -51,7 +51,9 @@ body{
 }
 
 #yel{
-  color: rgb(209, 191, 0);
+  color: #915907;
+  background-color: #fce3bc;
+  border-radius: 50px;
 }
 
 .info-2
