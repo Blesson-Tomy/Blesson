@@ -4,10 +4,10 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTEW9QT8ME"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-WTEW9QT8ME');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WTEW9QT8ME');
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2613515423.js" crossorigin="anonymous"></script> 
   </head>
+  <!-- Main body starts here -->
   <body>
+    <!-- Navigation Bar of the Program -->
     <nav class="navbar navbar-dark navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -38,16 +40,21 @@
                 <a class="nav-link" id="About" href="#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Projects">Projects</a>
+                <a class="nav-link" id="Skills" href="#Skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact Me</a>
+                <a class="nav-link" id="Projects" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Contact" href="#Contact">Contact Me</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <section id="#Home" class="hero he">
+
+      <!--Hero Section of the Program-->
+      <section id="NavHome" class="hero he">
         <div class="image ">
           <img class="im" src="Images/Blesson.jpeg" alt="Blesson's Image"> 
       </div>
@@ -66,7 +73,9 @@
             </div>
         </div>
       </section>
-      <section id="AboutSect" class="info-2">
+
+      <!--About Section of the Program-->
+      <section id="NavSect" class="info-2">
         <h1 class="heading">About Me</h1>
         <div class="aboutmain">
           <div id="im-about">
@@ -75,8 +84,6 @@
           <div id="text-about">
             <p>I am a Computer Science and Engineering student with 1 year of programming and web development experience. I am currently working on honing my python knowledge. I enjoy learning and solving problems one by one. As an analytical individual, I pride myself in being able to breakdown and simplify problems before attempting to find solutions for them. Besides being a developer, I am also an avid reader, exercise freak, content writer and public speaker.</p>
             <p>Connect with me to solve problems together.</p>
-
-            
             <ul class="grid-about">
               <li>1+<br><span> Years of programming experience</span></li>
               <li>5+<br><span> Projects Done</span></li>
@@ -84,13 +91,12 @@
               <li>20+<br><span> Tech Articles Written</span></li>
             </ul>
           </div>
-          
         </div>
-       
       </section>
 
+      <!-- Skills Section of the Program -->
       <section >
-        <h1 class="heading">Skills</h1>
+        <h1 class="heading" id="NavSkills">Skills</h1>
       <div class="skills" >
         <div class="type1">
           <h3 class="title">Version Control and Open Source</h3>
@@ -182,14 +188,12 @@
                 <div class="progress-bar w-75"></div>
               </div>
           </div>
-          
-          
         </div>
       </div>
       </section>
 
-      
-      <section id="#Projects" class="projects ">
+      <!-- Projects section of the Program-->
+      <section id="NavProjects" class="projects ">
         <div class="hero" id="herop" >
           <h1 class="heading">Projects</h1>
           <div class="card" style="width: 20rem;">
@@ -204,19 +208,16 @@
               <br>
             </div>
           </div>
-
           <div class="card" style="width: 20rem;">
             <div class="card-body">
               <h5 class="card-title spec">Personal Portfolio Website</h5>
               <p class="card-text"><br>A simple Portfolio Site for me to showcase my works as a developer. This page will be updated as I gain more experiences and do more projects.<br><br></p>
-              
               <h5>Tech Stack Used: </h5>
               <p>HTML, CSS, Bootstrap, Javascript</p>
               <a href="https://github.com/Blesson-Tomy/Blesson" class="card-link">Project Link</a>
               <a href="https://blesson-tomy.github.io/Blesson/" class="card-link">Hosted Link</a>
             </div>
           </div>
-
           <div class="card" style="width: 20rem;">
             <div class="card-body">
               <h5 class="card-title spec">Mahabeli's Portfolio</h5>
@@ -227,11 +228,11 @@
               <!-- <a href="https://blesson-tomy.github.io/Blesson/" class="card-link">Hosted Link</a> -->
             </div>
           </div>
-
         </div>
       </section>
 
-      <section id="#Contact" class="Contact ">
+      <!-- Contact Section of the Program -->
+      <section id="NavContact" class="Contact ">
         <div class="cont">
          <h3 class="heading">Get in touch with me!</h3>
           <a href="mailto:blessonkarikulam@gmail.com" class="sp" target="_blank" id="cont"><i class="fa-solid fa-envelope" id="cont"></i>blessonkarikulam@gmail.com</a>
@@ -259,7 +260,7 @@
               <textarea class="form-control" id="message" rows="3" name="message" placeholder="Please enter your message."></textarea>
             </div>
             <input class="btn btn-primary" type="submit" value="Submit" onclick="submitForm()">
-        </form>
+          </form>
         </div>
         <hr>
       </section>
@@ -280,10 +281,8 @@
           </div>
       </div>
       </footer>
-
+      <!-- Bootstrap and Javascript links -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
-
-
