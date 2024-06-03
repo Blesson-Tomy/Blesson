@@ -512,4 +512,19 @@ color: white;
   padding: 10px;
  }
 
+ .navtop{
+  border-radius: 50px 50px 50px 50px;
+  align-self: center;
+ 
+  border: 1px solid #0dcaf0;
+ }
+
+ .navtopdiv
+ {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  
+ }
  

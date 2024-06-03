@@ -22,3 +22,8 @@ document.getElementById('Contact').addEventListener('click', function() {
     var selected = document.getElementById('NavContact');
     selected.scrollIntoView({behavior: "smooth", block: "start"});
 });
+
+document.getElementById('navtop').addEventListener('click', function() {
+    var selected = document.getElementById('NavHome');
+    selected.scrollIntoView({behavior: "smooth", block: "start"});
+});
