@@ -8,4 +8,4 @@
 
 
  # Visit the site at:
- Personal Portfolio: [Check it out!](https://blesson-portfolio.vercel.app/)
+ Personal Portfolio: [Check it out!](https://www.blessonktomy.tech/)
