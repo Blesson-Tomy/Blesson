@@ -141,6 +141,7 @@ body{
  }
  ul{
   list-style-type: none;
+  
  }
  .aboutmain  li{
   padding: 25px;
@@ -151,7 +152,7 @@ body{
  }
 
  span{
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #ffffff;
   
  }
@@ -395,7 +396,7 @@ svg{
 }
 
 .navbar{
-  background-color: black;
+  background-color: rgba(6, 16, 27, 0.532);
 }
 
 
@@ -432,7 +433,7 @@ span .name
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #00000000;
 }
 
 /* Contact Section Begins*/
