@@ -9,3 +9,4 @@
 
  # Visit the site at:
  Personal Portfolio: [Check it out!](https://www.blessonktomy.tech/)
+ Personal Profile Page: [Check it out!](https://www.profile.blessonktomy.tech/)
