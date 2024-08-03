@@ -31,13 +31,18 @@ body{
 }
 
 .hero{
-  
   max-width: 100vw;
   display: flex;
   align-content: center;
   justify-content: space-around;
-  
-  
+}
+
+.herop{
+  max-width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 
@@ -228,6 +233,9 @@ body{
     display: flex;
     
   }
+  h5{
+    padding: 10px;
+  }
   
 
   .boxes
@@ -287,32 +295,32 @@ body{
     flex-direction: column;
     width: 100%;
     margin:auto;
-    /*
-    padding: 25px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-image: url(Images/Hero.jpg);
-    */
     background-repeat: no-repeat;
-    background-size: cover;
-   
-    
+    background-size: cover; 
+    background-image: url(Images/Hero.jpg);
+    background-position: -450px;
   }
-  .imgae{
+  .herop{
+   
+    width: 100%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: -900px;
+    max-width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .projects{
     
     background-image: url(Images/Hero.jpg);
-    margin: auto;
-    vertical-align: middle;
-    padding: 30px;
-    background-position: -450px;
-   
-  
-  }
-  .projects{
-    background-image: url(Images/106133);
     padding-top: 60px;
-    background-position: -300px;
-    /*<a href="https://www.freepik.com/free-photo/blue-smooth-wall-textured-background_15851277.htm#fromView=search&page=1&position=31&uuid=cf970dc3-4194-4aab-8663-52601d54d050">Image by rawpixel.com on Freepik</a>*/
+    background-position: -900px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   
