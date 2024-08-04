@@ -233,7 +233,7 @@ body{
     display: flex;
     
   }
-  h5{
+  #sp{
     padding: 10px;
   }
   
@@ -298,7 +298,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
     background-image: url(Images/Hero.jpg);
-    background-position: -450px;
+    background-position: -600px;
   }
   .herop{
    
@@ -307,7 +307,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: -900px;
-    max-width: 100vw;
+    flex-wrap: wrap;
     display: flex;
     align-content: center;
     justify-content: space-around;
