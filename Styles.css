@@ -59,7 +59,7 @@ body{
   max-width: vw;
 }
 
-#yel{
+.yel{
   color: #915907;
   background-color: #fce3bc;
   border-radius: 50px;
@@ -278,11 +278,13 @@ body{
   padding-top: 70px;
 }
 
-#yel{
+.yel{
   font-size: medium;
   padding: 5px;
   padding-left: 8px;
   padding-right: 8px;
+  color: #915907;
+  background-color: #fce3bc;
 }
 
 }
