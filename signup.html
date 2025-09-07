@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body class="b">
+    
+      <h1>Sign Up</h1>
+
+      <div class="login-form">
+        <form action="/submit_login" method="post">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required><br><br>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br><br>
+          <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+          <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required><br><br>
+          <input type="tel" id="phone" name="phone" placeholder="Phone"><br><br>
+          
+          <input type="date" id="dob" name="dob" placeholder="Date of Birth"><br><br>
+        
+          <select id="gender" name="gender" aria-placeholder="Gender">
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select><br><br>
+          <textarea id="address" name="address" placeholder="Address"></textarea><br><br>
+          <input type="text" id="city" name="city" placeholder="City"><br><br>
+          <input type="text" id="state" name="state" placeholder="State"><br><br>
+          <input type="text" id="country" name="country" placeholder="Country"><br><br>
+          <input type="text" id="zip" name="zip" placeholder="Zip Code"><br><br>
+          <input type="text" id="hobbies" name="hobbies" placeholder="Hobbies"><br><br>
+          <input type="file" id="resume" name="resume"><br><br>
+          <div >
+            <input type="submit" value="Sign Up">
+          </div>
+        </form>
+      </div>
+</body>
+</html>

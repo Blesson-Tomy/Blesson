@@ -1,6 +1,93 @@
-html{
-    background-color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body.b {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #43cea2 0%, #185a9d 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: #f8fcfd;
+  padding: 36px 32px 28px 32px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(24,90,157,0.13);
+  max-width: 400px;
+  width: 100%;
+  margin: 32px auto;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form input[type="tel"],
+.login-form input[type="date"],
+.login-form input[type="file"],
+.login-form textarea,
+.login-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #b2dfdb;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #e0f7fa;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus,
+.login-form input[type="tel"]:focus,
+.login-form input[type="date"]:focus,
+.login-form textarea:focus,
+.login-form select:focus {
+  border: 1.5px solid #43cea2;
+  outline: none;
+  background: #fff;
+}
+
+.login-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  background: linear-gradient(90deg, #f6d365 0%, #fda085 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(253,160,133,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 8px;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(24,90,157,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 8px;
+}
+.login-form input[type="submit"]:hover {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  box-shadow: 0 4px 16px rgba(24,90,157,0.18);
 }
 
 body{
@@ -8,17 +95,17 @@ body{
   
 }
 
-.heading
-{
-  
-  color: #0dcaf0;
-  font-weight: bold;
+
+h1 {
+  text-align: center;
+  color: #185a9d;
+  font-size: 2.2rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 
-.navbar-collapse{
-    flex-grow: 0;
-    justify-items:flex-end;
-}
 .nam{
   color: #0dcaf0;
 }
@@ -621,4 +708,48 @@ color: white;
   color: #ffff05;
   font-weight: bold;
 
+ }
+
+ .b{
+  background-color: black;
+  z-index: 1;
+
+  
+ }
+ .login-form{
+  align-items: center;
+  margin: auto;
+ max-width: fit-content;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(66, 116, 225, 0.64);
+  z-index: 0;
+  opacity: 1;
+       /* Solid white background */
+    border-radius: 10px;     /* Optional: rounded corners */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+    padding: 32px 24px;      /* Optional: space inside the form */
+
+ }
+
+ .center-bg{
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin:auto;
+  padding: -90px;
+align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+ }
+
+ input, select, textarea{
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  margin: 5px;
  }
